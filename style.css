@@ -40,20 +40,10 @@ section div {
     flex-grow: 1;
 }
 
-.lg-box {
+.lg-box, .sm-box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
-    background: white;
-    overflow: hidden;
-}
-
-.sm-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
     background: white;
     overflow: hidden;
 }
@@ -72,7 +62,7 @@ section div span h2 {
 
 section div span:nth-last-of-type(1){
     flex-direction: row;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 @media (max-width: 600px){
@@ -80,15 +70,10 @@ section div span:nth-last-of-type(1){
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 10px 20px 10px 0px;
         
     }
-    .section-2 {
+    .section-2, .section-1 {
         width: 100%;
-        padding-right: 20px;
     }
-    .section-1 {
-        width: 100%;
-        padding-right: 20px;
-    }
-    
 }
