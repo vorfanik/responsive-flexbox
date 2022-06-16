@@ -45,7 +45,6 @@ section div {
     flex-direction: column;
     justify-content: space-between;
     background: white;
-    overflow: hidden;
 }
 
 section div span {
